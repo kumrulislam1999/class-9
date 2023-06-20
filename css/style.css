@@ -277,14 +277,18 @@ div.serviceDetailsInfo>h3 {
 
 
 /* Start Image Gallery Section */
+#imageGallery {
+    width: 100%;
+}
+
 #imageGallery picture>img {
     width: 25%;
-    clip-path: rect(0, 0, 321px, 238px);
+    height: auto;
+
 }
 
 picture.row {
     justify-content: center;
-    align-items: center;
 }
 
 
